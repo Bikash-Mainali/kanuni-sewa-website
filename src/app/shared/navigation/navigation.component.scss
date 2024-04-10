@@ -1,0 +1,57 @@
+@import "../../../styles.scss";
+
+:host ::ng-deep {
+* {
+  box-sizing: border-box;
+}
+
+#navigation {
+  .sticky-navbar {
+    position: fixed;
+    top: 0;
+    background: rgb(54, 25, 88);
+    padding: $basic-padding;
+    background: $gradient-color;
+    z-index: 2;
+    /* Ensure it's on top of other content */
+  }
+
+  .top-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+
+    .logo-brand {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .brand-name {
+        align-self: center;
+        margin-left: 10px;
+        font-size: 28px;
+        ;
+      }
+    }
+
+    .top-navbar-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  .side {
+    margin-top: 64px;
+    .sidenav-container {
+      .sidenav-content {
+        min-height: 92vh;
+      }
+    }
+  }
+}
+}

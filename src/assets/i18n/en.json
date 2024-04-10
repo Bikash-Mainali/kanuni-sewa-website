@@ -1,0 +1,42 @@
+{
+  "DASHBOARD": {
+      "BRAND_NAME": "Namaste Kanuni Sewa",
+      "WELCOME_TEXT": {
+        "TEXT1": "Welcome To ",
+        "TEXT2": "Namaste Kanuni Sewa"
+      },
+      "TEXT1": "We make your",
+      "TEXT2" : "buying/selling easy",
+      "LEARN_MORE": "Learn More"
+  },
+  "GENERAL": {
+    "FULL_NAME": "Full Name",
+    "FIRST_NAME": "First Name",
+    "LAST_NAME": "Last Name",
+    "EMAIL_ADDRESS": "Email Address",
+    "EMAIL": "Email",
+    "PASSWORD": "Password",
+    "USERNAME": "Username"
+  },
+  "VALIDATION": {
+    "REQUIRED": "{{attribute}} is required!",
+    "VALID": "{{attribute}} must be valid!",
+    "MINIMUM_REQUIREMENT": "Minimum 3 characters required!",
+    "MAXIMUM_REQUIREMENT": "Must have 4 characters long",
+    "PASSWORD_REQUIREMENT": "Password should be at least 8 characters long and should contain one capital letter, one number and one special character!",
+    "PASSWORD_CONFIRM": "Password does not match the confirm password!"
+  },
+  "MESSAGES": {
+    "CONFIRM_CANCEL": "Are you sure you want to cancel?",
+    "CONFIRM_EDIT": "Are you sure you want to edit?",
+    "CONFIRM_DELETE": "Are you sure to delete selected {{attribute}}?",
+    "NO_DATA_MESSAGE": "No Data Found"
+  },
+  "TITLE": {
+    "DELETE": "Delete {{attribute}}"
+  },
+  "THEME": {
+    "DARK": "Dark",
+    "LIGHT": "Light"
+  }
+}

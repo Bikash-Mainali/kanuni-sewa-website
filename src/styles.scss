@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+/* this is prebuilt theme to be used when using material design */
+
+body, .footer, .header{
+    margin:0;
+    padding:0;
+}
+
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import "~bootstrap/dist/css/bootstrap.css";
+
+@import "~primeicons/primeicons.css";
+@import "~primeng/resources/themes/lara-light-blue/theme.css";
+@import "~primeng/resources/primeng.min.css";
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+
+$primary-color: #3f51b5;
+$white: white;
+$basic-padding:  30px;
+$basic-margin: 30px;
+$basic-color: #3f2466;
+$gradient-color: linear-gradient(90deg, rgba(54, 25, 88, 1) 0%, rgba(67, 41, 108, 1) 34%, rgba(41, 59, 108, 1) 63%);
+
+
+
+.btn :hover{
+    color: $primary-color;
+}
+
+

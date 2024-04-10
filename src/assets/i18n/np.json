@@ -1,0 +1,61 @@
+{
+  "DASHBOARD": {
+    "BRAND_NAME": "नमस्ते कानुनी सेवा",
+    "WELCOME_TEXT": {
+      "TEXT1": "सिद्धिकाली कानूनी सेवामा ",
+      "TEXT2": "स्वागत छ"
+    },
+    "TEXT1":"हामी तपाईंको खरिद/बिक्री",
+    "TEXT2": "सजिलो बनाउँछौं। ",
+    "LEARN_MORE": "थप जानकारी"
+},
+  "GENERAL": {
+    "FULL_NAME": "पुरा नाम",
+    "FIRST_NAME": "पहिलो नाम",
+    "LAST_NAME": "थर",
+    "EMAIL_ADDRESS": "इ - मेल ठेगाना",
+    "EMAIL": "इ - मेल",
+    "PASSWORD": "पासवर्ड",
+    "USERNAME": "प्रयोगकर्ता नाम",
+    "REMEMBER_ME": "मलाई सम्झनुहोस्",
+    "CONFIRM_PASSWORD": "Confirm Password",
+    "UPDATE_PASSWORD": "Change Password",
+    "CURRENT_PASSWORD": "Old Password",
+    "NEW_PASSWORD": "New Password",
+    "BACK_TO_LOGIN": "Back to Log in",
+    "SAVE": "Save",
+    "CANCEL": "Cancel",
+    "CONFIRM": "Confirm",
+    "YES": "Yes",
+    "NO": "No",
+    "FONT": "nepaliFont",
+    "ACTION": "कार्य"
+  },
+  "VALIDATION": {
+    "REQUIRED": "{{attribute}} is required!",
+    "VALID": "{{attribute}} must be valid!",
+    "MINIMUM_REQUIREMENT": "Minimum 3 characters required!",
+    "MAXIMUM_REQUIREMENT": "Must have 4 characters long",
+    "PASSWORD_REQUIREMENT": "Password should be at least 8 characters long and should contain one capital letter, one number and one special character!",
+    "PASSWORD_CONFIRM": "Password does not match the confirm password!"
+  },
+  "HEADER": {
+    "TITLE": "NMB"
+  },
+  "MESSAGES": {
+    "CONFIRM_CANCEL": "Are you sure you want to cancel?",
+    "CONFIRM_EDIT": "Are you sure you want to edit?",
+    "CONFIRM_DELETE": "Are you sure to delete selected {{attribute}}?",
+    "NO_DATA_MESSAGE": "No Data Found"
+  },
+  "HOME": {
+    "TITLE": "Recent Document"
+  },
+  "TITLE": {
+    "DELETE": "Delete {{attribute}}"
+  },
+  "THEME": {
+    "DARK": "Dark",
+    "LIGHT": "Light"
+  }
+}

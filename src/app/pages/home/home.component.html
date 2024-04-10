@@ -1,0 +1,59 @@
+<div id="home">
+    <div class="background-image"></div>
+    <div class="main">
+        <div class="head text-typing1">
+            <h1>{{'DASHBOARD.WELCOME_TEXT.TEXT1' | translate}}</h1>
+            <h1>{{'DASHBOARD.WELCOME_TEXT.TEXT2' | translate}}</h1>
+        </div>
+        <div class="content">
+            <div class="crousel-container">
+                <p-carousel [value]="tutorials" [autoplayInterval]="2000" [circular]="true" orientation="horizontal">
+                    <ng-template let-item pTemplate="item">
+                        <div class="border-1 surface-border border-round m-2 text-center py-5 px-3">
+                            <div class="mb-3">
+                                <img [src]="item.image" alt="Image" width="100%" />
+                            </div>
+                        </div>
+                    </ng-template>
+                </p-carousel>
+            </div>
+            <div class="right-box">
+                <div class="offer">
+                    <h1 class="text-typing">{{"DASHBOARD.TEXT1" | translate}} <br><span>{{"DASHBOARD.TEXT2" | translate}} </span></h1>
+                </div>
+                <div class="items-container">
+                    <div class="item">
+                        <p class="description">Registration Pass</p>
+                    </div>
+                    <div class="item">
+                        <p class="description">Registration Pass</p>
+                    </div>
+                </div>
+                <div class="button-container">
+                    <a class="btn" mat-raised-button color="accent" href="https://www.google.com/" target="_blank">{{"DASHBOARD.LEARN_MORE" | translate}}</a>
+                </div>
+            </div>
+
+        </div>
+        <!--
+    <div class="svg-container" >
+    <svg data-name="Layer 1" viewBox="0 0 900 600" preserveAspectRatio="none">
+        <defs>
+            <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:rgb(57, 50, 66);stop-opacity:1" />
+                <stop offset="100%" style="stop-color:rgb(81, 47, 182);stop-opacity:1" />
+            </linearGradient>
+        </defs>
+        <path d="M0 520L21.5 515.3C43 510.7 86 501.3 128.8 500C171.7 498.7 
+        214.3 505.3 257.2 492.3C300 479.3 343 446.7 385.8 446.3C428.7 
+        446 471.3 478 514.2 478.5C557 479 600 448 642.8 425.7C685.7 
+        403.3 728.3 389.7 771.2 383.7C814 377.7 857 379.3 878.5 380.2L900 
+        381L900 601L878.5 601C857 601 814 601 771.2 601C728.3 601 685.7 601 
+        642.8 601C600 601 557 601 514.2 601C471.3 601 428.7 601 385.8 601C343 
+        601 300 601 257.2 601C214.3 601 171.7 601 128.8 601C86 601 43 601 21.5 
+        601L0 601Z" fill="url(#grad)" stroke-linecap="round" stroke-linejoin="miter">
+        </path>
+    </svg>
+</div>
+-->
+    </div>
